@@ -28,8 +28,7 @@ html, body {
   outline: none;
   color: #fff;
   padding: 0px;
-  width: 240px;
-  
+  width: 240px;  
 }
 .header input:hover {
   border-bottom: 1px solid #1a77ff;
