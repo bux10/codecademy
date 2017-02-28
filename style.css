@@ -57,7 +57,6 @@ html, body {
 .menu ul.nav li {
   display: inline-block;
   text-align: center;
-  color: #fff;  
 }
 .menu ul.nav li.active {
   background-color: #1a77ff;
@@ -66,8 +65,10 @@ html, body {
   color: #fff;
 }
 .menu ul.nav li a:hover {
+  transition: ease-in-out;
   transition-duration: .5s;
   background-color: #1a77ff;
+  /*-webkit-transition: .5s;*/
   
 }
 
@@ -96,6 +97,25 @@ html, body {
 
 /*footer*/
 .footer {
-  height: 80px;
+  /*height: 80px;*/
   background-color: #000;
+  padding: 40px 0;
+}
+.footer ul {
+  /*min-height: 80px;*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.footer ul li {
+  display: inline-block;
+  text-align: center;
+}
+.footer ul li a{
+  color: #fff;
+}
+.footer p{
+  float: right;
+  color: #e2e2e2;
 }
