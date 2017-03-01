@@ -1,151 +1,29 @@
 html, body {
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   font-weight: 300;
-}
-h4 {
-  font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-}
-h3 {
-  padding-bottom: 20px;
-}
-h2 {
-  margin: 20px 0;
-}
-/*header*/
-.header {
   background-color: #000;
-  height: 80px;
+  color: #fff;
 }
-.header img {
-  margin-top: 15px;
+h1, h2, h3, h4, h5, h6 {
+  /*text-transform: uppercase;*/
+
 }
-.search {
-  float: right; 
-  margin-top: 25px;
+h1 {
+  /*font-size: 2.5em;*/
 }
 
-.search-form input {
-  background: transparent;
-  border: 0px;
-  border-bottom: 1px solid #fff;
-  color: #fff;
-  width: 240px;
-  margin-right: 10px;
-}
-.search-form input:hover {
-  transition-duration: .5s;
-  border-bottom: 1px solid #1a77ff
-}
-.search-form input:focus {
-  box-shadow: 0px 0px 0px;
-  outline: none;
-  border-bottom: 1px solid #1a77ff
-}
-.search-form button {
-  background: transparent;
-  border: 0px;
-  border-bottom: 1px solid #1a77ff;
-  color: #fff;
-}
 
-/*menu*/
-.menu {
-  color: #fff;
-  background-color: #152230;
-}
-.menu ul.nav {
-  min-height: 40px;
-  list-style: none;
-  padding-left: 0px;
-}
-.menu ul.nav li {
-  display: inline-block;
-  text-align: center;
-  padding: 0 20px;
-  line-height: 40px;
-}
-.menu ul.nav li.active {
-  background-color: #1a77ff;
-}
-.menu ul.nav li a {
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-.menu ul.nav li:hover {
-  background-color: #1a77ff;  
-}
-.menu ul.nav li a:hover {
-  background-color: #1a77ff;  
-}
 /*main*/
 .main {
-  background: url(https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg)no-repeat center center;
-  background-size: cover;
-  color: #fff;
-  height: 500px;
-}
-.main .col-md-5 {
-  padding: 40px;
-}
-.main .col-md-5 h2 span {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 60px;
-  border-bottom: 5px solid #1a77ff;
-}
-.main p {
-  font-size: 20px;
-}
-p.date{
-  font-size: 16px;
-}
-/*supporting*/
-.supporting {
-  background-color: #f2f2f2;
-}
-.supporting .col-md-8 {
-  background-color: #fff;
-  padding: 20px 40px 40px 40px;
-}
-.supporting .row {
-  margin: 50px 0;
-}
-.supporting .sidebar {
-  background-color: #152230;
-  color: #fff;
-  padding: 20px 40px 40px 40px;
-  
-}
-.supporting h4 span {
-  border-bottom: 3px solid #1a77ff;
+  /*background-color: #000;*/
+  /*color: #fff;*/
 }
 
-
-/*footer*/
-.footer {
-  background-color: #000;
-  padding: 40px 0;
-}
-.footer ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-.footer ul li {
-  display: inline-block;
-  /*text-align: center;*/
-  margin: 0 20px;
-}
-.footer ul li a{
-  color: #fff;
-}
-.footer p{
-  float: right;
-  color: #e2e2e2;
+/*jumbotron*/
+.jumbotron {
+  /*background-color: #000;*/
+  /*color: #fff;*/
 }
