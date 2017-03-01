@@ -1,0 +1,87 @@
+html, body {
+  /*font-family: 'Diplomata SC', cursive;*/
+  /*font-size: 20px;*/
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  color: #000;
+}
+
+/*header*/
+.header {
+  background-color: #7F543F;
+  height: 80px;
+  margin-top: 0;
+  color: #fff;
+}
+.header ul {
+  list-style: none;
+  margin-top: 30px;
+}
+.header li {
+  display: inline;
+  text-align: center;
+  /*padding: 10px 20px;*/
+}
+.header li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  outline: none;
+  box-shadow: 0px 0px 0px;
+}
+.btn {
+  /*border: 1px solid black;*/
+  border-radius: 0px;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 0px;
+}
+.btn:hover {
+  background-color: #FFA77E;
+  color: #000;
+
+}
+.active {
+  background-color: #FFA77E;
+  color: #000;
+  box-shadow: 0px 0px 0px;
+}
+
+/*jumbotron*/
+.jumbotron {
+  background: url(../images/camera2.jpg)no-repeat center -275px;
+  background-size: cover;
+  margin: 0;
+  height: 500px;
+  /*color: #fff;*/
+}
+.jumbotron p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+/*main*/
+.main {
+  background-color: #CC5C27;
+  padding: 90px 0;
+}
+.thumbnail {
+  background: #7F3A19;
+  border: 3px solid #7F3A19;
+  border-radius: 0px;
+}
+
+/*footer*/
+.footer {
+  background-color: #7F543F;
+  color: #fff;
+}
+.footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.footer .copyright {
+  text-align: right;
+}
+p.copyright {
+  margin-top: 100px;
+}
