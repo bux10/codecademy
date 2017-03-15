@@ -18,9 +18,16 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 0;
   color: #fff;
 }
+#menu{
+  margin-top: 15px;
+}
+
 .header ul {
+  background-color: #7F543F;
+  border-radius: 0px;
   list-style: none;
-  margin-top: 30px;
+  margin-top: 14px;
+  padding: 0px;
 }
 .header li {
   display: inline;
@@ -52,7 +59,9 @@ h1, h2, h3, h4, h5, h6{
 .btn .active a {
   box-shadow: none;
 }
-
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  background-color: #CC5C27;
+}
 /*jumbotron*/
 .jumbotron {
   background: url(../images/camera2.jpg)no-repeat center -275px;
@@ -90,4 +99,12 @@ h1, h2, h3, h4, h5, h6{
 }
 p.copyright {
   margin-top: 100px;
+}
+.highlight {  
+  background: red;
+  border: solid 4px red;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: #7F3A19;
+  color: #000;
 }
